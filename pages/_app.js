@@ -1,9 +1,10 @@
 import React from 'react';
+import { ContextProvider } from '../components/hooks/ContextProvider';
 
 const App = ({ Component, pageProps }) => (
-  <React.Fragment>
+  <ContextProvider>
     <Component {...pageProps} />
-  </React.Fragment>
+  </ContextProvider>
 );
 
 export default App;
