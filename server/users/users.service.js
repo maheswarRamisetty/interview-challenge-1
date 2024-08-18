@@ -7,7 +7,6 @@ async function fetchAllUsers() {
 
   return users;
 }
-// Route to fetch user are https://jsonplaceholder.typicode.com/users/:userId
 async function fetchUserById(userId) {
   return {};
 }
